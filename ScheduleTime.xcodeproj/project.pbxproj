@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DAA42BE964F7E387C7FB5F0 /* Pods_ScheduleTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB62242B77A7FDB4EF002702 /* Pods_ScheduleTime.framework */; };
+		6303D15324C22FA000C5C5E8 /* EditCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303D15224C22FA000C5C5E8 /* EditCellTableViewController.swift */; };
 		636AA15524B64BDD0070EAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA15424B64BDD0070EAA1 /* AppDelegate.swift */; };
 		636AA15724B64BDD0070EAA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA15624B64BDD0070EAA1 /* SceneDelegate.swift */; };
 		636AA15924B64BDD0070EAA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA15824B64BDD0070EAA1 /* FirstViewController.swift */; };
@@ -14,10 +16,22 @@
 		636AA15E24B64BDD0070EAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636AA15C24B64BDD0070EAA1 /* Main.storyboard */; };
 		636AA16024B64BDF0070EAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636AA15F24B64BDF0070EAA1 /* Assets.xcassets */; };
 		636AA16324B64BDF0070EAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636AA16124B64BDF0070EAA1 /* LaunchScreen.storyboard */; };
+		636AA16D24B77B2D0070EAA1 /* NewActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA16C24B77B2D0070EAA1 /* NewActivityTableViewController.swift */; };
+		636AA17024B77E510070EAA1 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA16E24B77E510070EAA1 /* ScheduleTableViewCell.swift */; };
+		636AA17124B77E510070EAA1 /* ScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636AA16F24B77E510070EAA1 /* ScheduleTableViewCell.xib */; };
+		636AA17724B8DADF0070EAA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA17624B8DADF0070EAA1 /* Constants.swift */; };
+		636AA17924BBD6F10070EAA1 /* ScheduleCellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA17824BBD6F10070EAA1 /* ScheduleCellDetails.swift */; };
+		636AA17E24BD17C60070EAA1 /* ExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636AA17C24BD17C60070EAA1 /* ExampleTableViewCell.xib */; };
+		636AA18224BE7F930070EAA1 /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 636AA18024BE7F930070EAA1 /* Gilroy-ExtraBold.otf */; };
+		636AA18324BE7F930070EAA1 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 636AA18124BE7F930070EAA1 /* Gilroy-Light.otf */; };
+		636AA18624BE83FF0070EAA1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 636AA18424BE83FE0070EAA1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */; };
+		636AA18724BE83FF0070EAA1 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 636AA18524BE83FE0070EAA1 /* PlayfairDisplay-VariableFont_wght.ttf */; };
+		636AA18924C0F89E0070EAA1 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636AA18824C0F89E0070EAA1 /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		636AA15124B64BDD0070EAA1 /* ScheduleTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6303D15224C22FA000C5C5E8 /* EditCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCellTableViewController.swift; sourceTree = "<group>"; };
+		636AA15124B64BDD0070EAA1 /* Schedule Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schedule Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		636AA15424B64BDD0070EAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		636AA15624B64BDD0070EAA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		636AA15824B64BDD0070EAA1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +40,20 @@
 		636AA15F24B64BDF0070EAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636AA16224B64BDF0070EAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636AA16424B64BDF0070EAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636AA16C24B77B2D0070EAA1 /* NewActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewActivityTableViewController.swift; sourceTree = "<group>"; };
+		636AA16E24B77E510070EAA1 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		636AA16F24B77E510070EAA1 /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		636AA17624B8DADF0070EAA1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		636AA17824BBD6F10070EAA1 /* ScheduleCellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCellDetails.swift; sourceTree = "<group>"; };
+		636AA17C24BD17C60070EAA1 /* ExampleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleTableViewCell.xib; sourceTree = "<group>"; };
+		636AA18024BE7F930070EAA1 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		636AA18124BE7F930070EAA1 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		636AA18424BE83FE0070EAA1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		636AA18524BE83FE0070EAA1 /* PlayfairDisplay-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		636AA18824C0F89E0070EAA1 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		83F83073A98279294906BAAD /* Pods-ScheduleTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleTime.release.xcconfig"; path = "Target Support Files/Pods-ScheduleTime/Pods-ScheduleTime.release.xcconfig"; sourceTree = "<group>"; };
+		EAE05171262E953C8C2832AF /* Pods-ScheduleTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleTime.debug.xcconfig"; path = "Target Support Files/Pods-ScheduleTime/Pods-ScheduleTime.debug.xcconfig"; sourceTree = "<group>"; };
+		EB62242B77A7FDB4EF002702 /* Pods_ScheduleTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScheduleTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,24 +61,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAA42BE964F7E387C7FB5F0 /* Pods_ScheduleTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FB5A99E2965FC7DA9526446 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAE05171262E953C8C2832AF /* Pods-ScheduleTime.debug.xcconfig */,
+				83F83073A98279294906BAAD /* Pods-ScheduleTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		63441CB92982101890675F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB62242B77A7FDB4EF002702 /* Pods_ScheduleTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		636AA14824B64BDD0070EAA1 = {
 			isa = PBXGroup;
 			children = (
 				636AA15324B64BDD0070EAA1 /* ScheduleTime */,
 				636AA15224B64BDD0070EAA1 /* Products */,
+				2FB5A99E2965FC7DA9526446 /* Pods */,
+				63441CB92982101890675F19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		636AA15224B64BDD0070EAA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				636AA15124B64BDD0070EAA1 /* ScheduleTime.app */,
+				636AA15124B64BDD0070EAA1 /* Schedule Time.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,14 +108,66 @@
 			children = (
 				636AA15424B64BDD0070EAA1 /* AppDelegate.swift */,
 				636AA15624B64BDD0070EAA1 /* SceneDelegate.swift */,
-				636AA15824B64BDD0070EAA1 /* FirstViewController.swift */,
-				636AA15A24B64BDD0070EAA1 /* SecondViewController.swift */,
-				636AA15C24B64BDD0070EAA1 /* Main.storyboard */,
-				636AA15F24B64BDF0070EAA1 /* Assets.xcassets */,
+				636AA17424B77F5D0070EAA1 /* Models */,
+				636AA16A24B75D530070EAA1 /* Controllers */,
+				636AA16B24B75D630070EAA1 /* Views */,
+				636AA17524B8DAC10070EAA1 /* Extras */,
+				636AA17F24BE7F560070EAA1 /* Fonts */,
 				636AA16124B64BDF0070EAA1 /* LaunchScreen.storyboard */,
 				636AA16424B64BDF0070EAA1 /* Info.plist */,
 			);
 			path = ScheduleTime;
+			sourceTree = "<group>";
+		};
+		636AA16A24B75D530070EAA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				636AA15824B64BDD0070EAA1 /* FirstViewController.swift */,
+				636AA16C24B77B2D0070EAA1 /* NewActivityTableViewController.swift */,
+				6303D15224C22FA000C5C5E8 /* EditCellTableViewController.swift */,
+				636AA15A24B64BDD0070EAA1 /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		636AA16B24B75D630070EAA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				636AA15C24B64BDD0070EAA1 /* Main.storyboard */,
+				636AA16E24B77E510070EAA1 /* ScheduleTableViewCell.swift */,
+				636AA16F24B77E510070EAA1 /* ScheduleTableViewCell.xib */,
+				636AA17C24BD17C60070EAA1 /* ExampleTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		636AA17424B77F5D0070EAA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				636AA17824BBD6F10070EAA1 /* ScheduleCellDetails.swift */,
+				636AA18824C0F89E0070EAA1 /* Notifications.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		636AA17524B8DAC10070EAA1 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				636AA15F24B64BDF0070EAA1 /* Assets.xcassets */,
+				636AA17624B8DADF0070EAA1 /* Constants.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		636AA17F24BE7F560070EAA1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				636AA18424BE83FE0070EAA1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf */,
+				636AA18524BE83FE0070EAA1 /* PlayfairDisplay-VariableFont_wght.ttf */,
+				636AA18024BE7F930070EAA1 /* Gilroy-ExtraBold.otf */,
+				636AA18124BE7F930070EAA1 /* Gilroy-Light.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 636AA16724B64BDF0070EAA1 /* Build configuration list for PBXNativeTarget "ScheduleTime" */;
 			buildPhases = (
+				0A8201053F567F85C031F281 /* [CP] Check Pods Manifest.lock */,
 				636AA14D24B64BDD0070EAA1 /* Sources */,
 				636AA14E24B64BDD0070EAA1 /* Frameworks */,
 				636AA14F24B64BDD0070EAA1 /* Resources */,
+				6B5572BE46D770594A99FB6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -87,7 +189,7 @@
 			);
 			name = ScheduleTime;
 			productName = ScheduleTime;
-			productReference = 636AA15124B64BDD0070EAA1 /* ScheduleTime.app */;
+			productReference = 636AA15124B64BDD0070EAA1 /* Schedule Time.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,12 +231,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				636AA16324B64BDF0070EAA1 /* LaunchScreen.storyboard in Resources */,
+				636AA18324BE7F930070EAA1 /* Gilroy-Light.otf in Resources */,
+				636AA17E24BD17C60070EAA1 /* ExampleTableViewCell.xib in Resources */,
 				636AA16024B64BDF0070EAA1 /* Assets.xcassets in Resources */,
+				636AA18724BE83FF0070EAA1 /* PlayfairDisplay-VariableFont_wght.ttf in Resources */,
+				636AA18624BE83FF0070EAA1 /* PlayfairDisplay-Italic-VariableFont_wght.ttf in Resources */,
+				636AA17124B77E510070EAA1 /* ScheduleTableViewCell.xib in Resources */,
 				636AA15E24B64BDD0070EAA1 /* Main.storyboard in Resources */,
+				636AA18224BE7F930070EAA1 /* Gilroy-ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A8201053F567F85C031F281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScheduleTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B5572BE46D770594A99FB6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScheduleTime/Pods-ScheduleTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScheduleTime/Pods-ScheduleTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScheduleTime/Pods-ScheduleTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		636AA14D24B64BDD0070EAA1 /* Sources */ = {
@@ -143,8 +293,14 @@
 			files = (
 				636AA15B24B64BDD0070EAA1 /* SecondViewController.swift in Sources */,
 				636AA15924B64BDD0070EAA1 /* FirstViewController.swift in Sources */,
+				636AA17024B77E510070EAA1 /* ScheduleTableViewCell.swift in Sources */,
+				636AA18924C0F89E0070EAA1 /* Notifications.swift in Sources */,
+				636AA16D24B77B2D0070EAA1 /* NewActivityTableViewController.swift in Sources */,
 				636AA15524B64BDD0070EAA1 /* AppDelegate.swift in Sources */,
 				636AA15724B64BDD0070EAA1 /* SceneDelegate.swift in Sources */,
+				6303D15324C22FA000C5C5E8 /* EditCellTableViewController.swift in Sources */,
+				636AA17924BBD6F10070EAA1 /* ScheduleCellDetails.swift in Sources */,
+				636AA17724B8DADF0070EAA1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,37 +442,41 @@
 		};
 		636AA16824B64BDF0070EAA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE05171262E953C8C2832AF /* Pods-ScheduleTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P29N523H34;
 				INFOPLIST_FILE = ScheduleTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaishantmakan.ScheduleTime;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Schedule Time";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		636AA16924B64BDF0070EAA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F83073A98279294906BAAD /* Pods-ScheduleTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P29N523H34;
 				INFOPLIST_FILE = ScheduleTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vaishantmakan.ScheduleTime;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Schedule Time";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
