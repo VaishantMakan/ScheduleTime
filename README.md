@@ -8,8 +8,7 @@ You can edit an already existing task by simply swiping it with your finger or y
 Built on Xcode 9 and Swift 4.
 
 Pods Used : 
-RealmSwift
-SwipeCellKit
+RealmSwift and SwipeCellKit
 
 
 ## Contributing
