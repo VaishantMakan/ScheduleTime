@@ -60,6 +60,11 @@ class NewActivityTableViewController: UITableViewController {
         
         //date picker mode
         datePickerTime.datePickerMode = .time
+        if #available(iOS 13.4, *) {
+            datePickerTime.preferredDatePickerStyle = .wheels
+        } else {
+            // Fallback on earlier versions
+        }
         
         //to dismiss the keyboard on tapping anywhere else
         hideKeyboardOnTap()
